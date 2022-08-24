@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Permanent Marker", cursive, "Inter", sans-serif;
+  /* font-family: 'Inter', sans-serif; */
+}
+.background {
+  @apply bg-[#0D0D0D] h-screen;
+}
+.header {
+  @apply text-[74px] text-white text-center;
+}
+.shijiImg {
+  @apply w-[500px] flex justify-center pt-6 m-auto;
+}
+.shijiImg2 {
+  width: 250px !important;
+}
+.shijiImg3 {
+  padding-bottom: 30px !important;
+}
+.phoneText {
+  @apply mt-1 text-5xl text-white font-['Inter'];
+}
+.phoneText2 {
+  font-size: 30px !important;
+  margin-top: 0px !important;
+}
+.emailText {
+  @apply text-5xl text-blue-600 font-['Inter'] underline-offset-1 inline-block mt-10;
+}
+.emailText2 {
+  font-size: 30px !important;
+  padding-bottom: 1.5rem !important;
+}
+.underlineText {
+  border-bottom: 2px solid #2563eb !important;
+}
+.blueText {
+  @apply text-[64px] text-[#699BF7] mt-[-10px];
+}
+.subheader {
+  @apply text-[50px] text-white mt-9;
+}
+.buttonDiv {
+  @apply flex flex-row gap-60 mt-20 justify-center;
+}
+.inputField {
+  @apply mx-44 gap-40 px-4 py-[2px] rounded-lg w-[76%] mb-[3px] text-black bg-[#D9D9D9] shadow-2xl text-center;
+}
+.inputPadding{
+  padding-top: 4px !important;
+}
+.important {
+  width: 82% !important;
+}
+.important2 {
+  width: 78% !important;
+}
