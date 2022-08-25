@@ -3,7 +3,7 @@ import Aobis from "./images/aobis.png";
 import { BsTelephone } from "react-icons/bs";
 import Shijipng from "./images/shiji.png";
 
-const I3 = () => {
+const I4 = () => {
   return (
     <div class="text-center background">
       <div class="border-b-2 border-solid border-white pb-4">
@@ -76,4 +76,4 @@ const I3 = () => {
   );
 };
 
-export default I3;
+export default I4;
