@@ -16,7 +16,7 @@ const I1 = () => {
               class="w-16 h-16 rounded-2xl"
             />
           </div>
-          <div class="phoneText">(+49) 8941207181</div>
+          <div class="phoneText">(+49) 89 41207181</div>
         </div>
         <div class="flex flex-row gap-5 justify-center">
           <div>
@@ -26,7 +26,7 @@ const I1 = () => {
               class="w-16 h-16 rounded-2xl"
             />
           </div>
-          <div class="phoneText">(+44) 2038268896</div>
+          <div class="phoneText">(+44) 2039 620 359</div>
         </div>
       </div>
       <a
