@@ -31,7 +31,7 @@ const I1 = () => {
       </div>
       <a
         class="underlineText emailText"
-        href="mailto:posssuport-eu@shijigroup.com"
+        href="mailto:posssuport-eu@shijigroup.com?cc=david.ojstersek@ruby-hotels.com"
       >
         posssupport-eu@shijigroup.com
       </a>

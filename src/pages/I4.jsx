@@ -67,7 +67,7 @@ const I4 = () => {
         </div>
         <a
           class="emailText2 emailText"
-          href="mailto:pms.support-eu@shijigroup.com"
+          href="mailto:pms.support-eu@shijigroup.com?cc=david.ojstersek@ruby-hotels.com"
         >
           pms.support-eu@shijigroup.com
         </a>
