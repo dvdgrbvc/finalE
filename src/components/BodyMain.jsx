@@ -4,7 +4,7 @@ import OptionButton from "./OptionButton";
 
 const BodyMain = () => {
   return (
-    <div class="mt-20">
+    <div class="mt-10">
       {/* <div class="flex justify-center text-8xl text-[#9B0000] pt-16">
         Emergency Contact
       </div> */}
