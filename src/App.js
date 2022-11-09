@@ -41,6 +41,7 @@ import Check9k from "./pages/Check9k";
 import Final from "./pages/Final";
 import Homepage from "./pages/Homepage";
 import Hotel from "./pages/hotel";
+import Infratest from "./pages/Infratest";
 
 
 const App = () => {
@@ -51,8 +52,9 @@ const App = () => {
 
         <Routes>
 
-          <Route path="/" element={<Homepage />} />
-          <Route path="/hotel" element={<Hotel />} />
+          <Route path="/home" element={<Homepage />} />
+          <Route path="/test" element={<Infratest />} />
+          <Route path="/" element={<Hotel />} />
           <Route path="/infrasys" element={<Infrasys />} />
           <Route path="/shiji" element={<Shiji />} />
           <Route path="/kiosk" element={<Kiosk />} />

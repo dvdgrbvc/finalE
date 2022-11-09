@@ -1,16 +1,14 @@
 import React from 'react';
 import Select from 'react-select'
-import { Link } from "react-router-dom";
-import '../index.css'; 
-import { Navbar } from "../components";
-import { BodyMain } from '../components';
+import '../index.css';
+import {Navbar} from "../components";
+import {useNavigate} from "react-router-dom"
 
-function handleChange() {
-  <Link to="/check1"> </Link>
-}
+
+
 
 const options = [
-  { value: 'Claire', label: 'Claire', onChange:{handleChange} },
+  { value: 'Claire', label: 'Claire' },
   { value: 'Coco', label: 'Coco' },
   { value: 'Emma', label: 'Emma' },
   { value: 'Leni', label: 'Leni' },
@@ -27,7 +25,15 @@ const options = [
   { value: 'Zoe', label: 'Zoe' },
 ]
 
-const hotel = () => {
+const Hotel = () => {
+  const navigate = useNavigate();
+
+  const handleChange = (ev) => {
+    navigate(`/home`)
+   // navigate(`/${ev.value}`)
+  //  If you want to navigate to another location just change the string above.
+  //  Your code will be: navigate('/check1')
+  }
   return(
   <div class='background'>
   <div>
@@ -44,7 +50,7 @@ const hotel = () => {
       </h2>
   </div>
   <div class="select">
-<Select onChange={handleChange} options={options} /> 
+<Select onChange={handleChange} options={options} classNamePrefix={"select-filter"} />
   </div>
   
 </div>
@@ -53,4 +59,4 @@ const hotel = () => {
      )
 }
 
-export default hotel;
+export default Hotel;
