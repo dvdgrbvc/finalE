@@ -5,7 +5,7 @@ import '../index.css';
 import { Navbar } from "../components";
 import { BodyMain } from '../components';
 
-function handleChange () {
+function handleChange() {
   <Link to="/check1"> </Link>
 }
 
@@ -44,7 +44,7 @@ const hotel = () => {
       </h2>
   </div>
   <div class="select">
-<Select options={options} /> 
+<Select onChange={handleChange} options={options} /> 
   </div>
   
 </div>
