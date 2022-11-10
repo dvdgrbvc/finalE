@@ -50,7 +50,7 @@ const Hotel = () => {
       </h2>
   </div>
   <div class="select">
-<Select onChange={handleChange} options={options} classNamePrefix={"select-filter"} />
+<Select onChange={handleChange}  options={options} classNamePrefix={"select-filter"} />
   </div>
   
 </div>

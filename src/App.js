@@ -7,8 +7,6 @@ import I2 from './pages/I2';
 import I3 from './pages/I3';
 import I4 from './pages/I4';
 import I5 from './pages/I5';
-import Infrasys from './pages/Infrasys';
-import Kiosk from './pages/Kiosk';
 import Shiji from './pages/Shiji';
 import Solution from './pages/Solution';
 import Check1s from "./pages/Check1s";
@@ -41,7 +39,8 @@ import Check9k from "./pages/Check9k";
 import Final from "./pages/Final";
 import Homepage from "./pages/Homepage";
 import Hotel from "./pages/hotel";
-import Infratest from "./pages/Infratest";
+import Infrasys from "./pages/Infrasys";
+import Kiosk from "./pages/Kiosk";
 
 
 const App = () => {
@@ -53,11 +52,11 @@ const App = () => {
         <Routes>
 
           <Route path="/home" element={<Homepage />} />
-          <Route path="/test" element={<Infratest />} />
-          <Route path="/" element={<Hotel />} />
-          <Route path="/infrasys" element={<Infrasys />} />
-          <Route path="/shiji" element={<Shiji />} />
           <Route path="/kiosk" element={<Kiosk />} />
+          <Route path="/infrasys" element={<Infrasys />} />
+          <Route path="/" element={<Hotel />} />
+          
+          <Route path="/shiji" element={<Shiji />} />
           <Route path="/solution" element={<Solution />} />
           <Route path="/i1" element={<I1 />} />
           <Route path="/i1s" element={<I1s />} />
