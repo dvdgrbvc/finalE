@@ -11,7 +11,7 @@ const options = [
   { value: 'Claire', label: 'Claire' },
   { value: 'Coco', label: 'Coco' },
   { value: 'Emma', label: 'Emma' },
-  { value: 'Emma', label: 'Emma' },
+  { value: 'Ella', label: 'Ella' },
   { value: 'Leni', label: 'Leni' },
   { value: 'Lilly', label: 'Lilly' },
   { value: 'Lissi', label: 'Lissi' },
