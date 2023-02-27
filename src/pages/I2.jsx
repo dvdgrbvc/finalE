@@ -19,7 +19,7 @@ const I2 = () => {
         class="underlineText emailText"
         href="mailto:posssuport-eu@shijigroup.com?cc=david.ojstersek@ruby-hotels.com"
       >
-        posssupport-eu@shijigroup.com
+        possupport-eu@shijigroup.com
       </a>
     </div>
   );
