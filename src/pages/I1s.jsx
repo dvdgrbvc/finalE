@@ -1,5 +1,7 @@
 import React from "react";
 import Shijipng from "./images/shiji.png";
+import NoButton from '../components/NoButton';
+import YesButton from '../components/YesButton';
 
 const I1s = () => {
   return (
@@ -35,6 +37,11 @@ const I1s = () => {
       >
         pms.support-eu@shijigroup.com
       </a>
+      <h2 class="subheader">Was Shiji able to solve the Problem?</h2>
+      <div class="flex flex-row gap-60 justify-center mt-8">
+        <YesButton name="Yes" path="/" />
+        <NoButton name="No" path="/adyenpms" />
+      </div>
     </div>
   );
 };

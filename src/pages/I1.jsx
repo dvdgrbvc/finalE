@@ -1,5 +1,7 @@
 import React from "react";
 import Shijipng from "./images/shiji.png";
+import NoButton from '../components/NoButton';
+import YesButton from '../components/YesButton';
 
 const I1 = () => {
   return (
@@ -31,12 +33,18 @@ const I1 = () => {
       </div>
       <a
         class="underlineText emailText"
-        href="mailto:posssuport-eu@shijigroup.com?cc=david.ojstersek@ruby-hotels.com"
+        href="mailto:possuport-eu@shijigroup.com?cc=david.ojstersek@ruby-hotels.com"
       >
-        posssupport-eu@shijigroup.com
+        possupport-eu@shijigroup.com
       </a>
+      <h2 class="subheader">Was Shiji able to solve the Problem?</h2>
+      <div class="flex flex-row gap-60 justify-center mt-8">
+        <YesButton name="Yes" path="/" />
+        <NoButton name="No" path="/adyenpos" />
+      </div>
     </div>
   );
 };
 
 export default I1;
+
