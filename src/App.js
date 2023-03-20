@@ -41,7 +41,9 @@ import Homepage from "./pages/Homepage";
 import Hotel from "./pages/hotel";
 import Infrasys from "./pages/Infrasys";
 import Kiosk from "./pages/Kiosk";
-
+import AdyenPOS from "./pages/adyenpos";
+import AdyenPMS from "./pages/adyenpms";
+import ShijiNEW from "./pages/ShijiNew";
 
 const App = () => {
   return (
@@ -55,8 +57,7 @@ const App = () => {
           <Route path="/kiosk" element={<Kiosk />} />
           <Route path="/infrasys" element={<Infrasys />} />
           <Route path="/" element={<Hotel />} />
-          
-          <Route path="/shiji" element={<Shiji />} />
+          <Route path="/shiji" element={<ShijiNEW />} />
           <Route path="/solution" element={<Solution />} />
           <Route path="/i1" element={<I1 />} />
           <Route path="/i1s" element={<I1s />} />
@@ -93,7 +94,8 @@ const App = () => {
           <Route path="/check8k" element={<Check8k />} />
           <Route path="/check9k" element={<Check9k />} />
           <Route path="/final" element={<Final />} />
-        
+          <Route path="/adyenpos" element={<AdyenPOS />} />
+          <Route path="/adyenpms" element={<AdyenPMS />} />
         </Routes>
       </BrowserRouter>
 
